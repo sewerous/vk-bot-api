@@ -8,5 +8,7 @@ data class EventDTO(
     @JsonProperty("object")
     val obj: EventMessageNewDTO?,
 //    val obj: T,
-    val group_id: String
+    val group_id: String,
+    val groupi_id: String,
+    val groups_id: String
 )
